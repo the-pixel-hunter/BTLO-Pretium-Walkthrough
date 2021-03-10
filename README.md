@@ -5,7 +5,8 @@
 ### Scenario
 - [ ] pic 1
 
-### Question 1 
+<details><summary>### Question 1</summary>
+<p>
 What is the full filename of the initial payload file? (4 points)
 
 Lets check out export Objects in Wireshark
@@ -20,8 +21,7 @@ But we can see one that was application/x-msdos-programs and its a bat file but 
 
 - [ ] pic 4
 
-<details><summary>ANSWEAR 1</summary>
-<p>
+
 
 ANSWEAR: INVOICE_2021937.pdf.bat
 
