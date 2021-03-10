@@ -1,4 +1,4 @@
-# Pretium Walkthrough
+# Pretium Walkthrough ![BTLO Logo](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/btlologo.png, "BTLO Logo")
 
 ### Scenario
 - [ ] pic 1
