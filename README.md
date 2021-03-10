@@ -6,7 +6,7 @@
 - [ ] pic 1
 
 ### <details><summary>Question 1</summary>
-<p>
+ 
 What is the full filename of the initial payload file? (4 points)
 
 Lets check out export Objects in Wireshark
