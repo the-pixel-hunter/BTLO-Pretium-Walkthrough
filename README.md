@@ -5,7 +5,7 @@
 ### Scenario
 - [ ] pic 1
 
-### <details><summary>Question 1</summary>
+<details><summary>Question 1</summary>
 <p>
 
 What is the full filename of the initial payload file? (4 points)
