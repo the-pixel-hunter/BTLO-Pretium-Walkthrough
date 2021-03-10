@@ -105,14 +105,13 @@ ANSWEAR 9: Empire
 10. Using some Blue Team Magic, can detect data exfiltration and find out what have been exfiltrated? Provide the decoded password. (5 points)
 11. What is the account’s username? (Include $ at the beginning) (5 points)
 
-This one had me stumpted for a while but finaly filter down the fields did the trick and also the included resource was very helpful
-https://isc.sans.edu/forums/diary/Packet+Tricks+with+xxd/10306/
+This one had me stumpted for a while but finaly filtering down the packets  did the trick and also the included resource was very helpful - https://isc.sans.edu/forums/diary/Packet+Tricks+with+xxd/10306/
 
-1. Filter the main pcap, there seems to be a lot of ICMP traffic to the malciouse IP lets take a closer look
-2. lets export the data filed with tshark - [ ] cmd here
-3. Looks like hex let conver that
-4. Looks like some lovely bit of base64 
-5. BINGO!
+1. Looking at the pcap, there seems to be a lot of ICMP traffic to the malciouse IP lets take a closer look with a filter `ip.dst == 192.168.1.8 and icmp`
+3. lets export the data filed with tshark `cmd here`
+4. Looks like hex let conver that
+5. Looks like some lovely bit of base64 
+6. BINGO!
 
 - [ ] pics 11 - 15
 
@@ -122,5 +121,5 @@ ANSWEAR 11: $sec-account
 
 ### Final Thoughts
 
-enjoyed this one! stuggled at first with the final two questiosn but having sleep and coming back at it with a fresh mind works wonders!
+Enjoyed this one! stuggled at first with the final two questiosn but having sleep and coming back at it with a fresh mind works wonders!
 
