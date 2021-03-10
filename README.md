@@ -7,10 +7,15 @@
 What is the full filename of the initial payload file? (4 points)
 
 Lets check out export Objects in Wireshark
+
 - [ ] pic  2
+
 Stright away we can some intrestin filenames which will remember for later as they may come into play.
+
 - [ ] pic 3
+
 But we can see one that was application/x-msdos-programs and its a bat file but trying to mascerade as .pdf file.
+
 - [ ] pic 4
 
  ANSWEAR 1: INVOICE_2021937.pdf.bat
@@ -20,6 +25,7 @@ What is the name of the module used to serve the malicious payload? (4 points)
 
 Taking a closer look at the packets we can see that the reposen contatins the server banner "SimpleHTTP/0.6 Python/3.8.5"
 Quick little google to check the full module name fo SimpleHTTP provides us with our answear.
+
 - [ ] pic 5
 
 ANSWEAR 2: SimpleHTTPServer
@@ -27,7 +33,8 @@ ANSWEAR 2: SimpleHTTPServer
 ### Question 3 
 From observing the traffic, can you find out what is the attacker machine IP now? (4 points)
 
-This one isnt very hard, as it clearly displays the source addresses in the packets 
+This one isnt very hard, as it clearly displays the source addresses in the packets
+
 - [ ] pic 6
 
 ANSWEAR 3: 192.168.1.9
