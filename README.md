@@ -18,7 +18,13 @@ But we can see one that was application/x-msdos-programs and its a bat file but 
 
 - [ ] pic 4
 
- ANSWEAR 1: INVOICE_2021937.pdf.bat
+<details><summary>ANSWEAR 1</summary>
+<p>
+
+ANSWEAR 1: INVOICE_2021937.pdf.bat
+
+</p>
+</details>
 
 ### Question 2
 What is the name of the module used to serve the malicious payload? (4 points)
