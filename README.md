@@ -6,7 +6,7 @@
 <details><summary>Question 1</summary>
 <p>
 
-What is the full filename of the initial payload file? (4 points)
+1. What is the full filename of the initial payload file? (4 points)
 
 Lets check out export Objects in Wireshark
 
@@ -30,7 +30,7 @@ ANSWEAR 1: INVOICE_2021937.pdf.bat
 <details><summary>Question 2</summary>
 <p>
 
-What is the name of the module used to serve the malicious payload? (4 points)
+2. What is the name of the module used to serve the malicious payload? (4 points)
 
 Taking a closer look at the packets we can see that the reposen contatins the server banner "SimpleHTTP/0.6 Python/3.8.5"
 Quick little google to check the full module name fo SimpleHTTP provides us with our answear.
@@ -44,7 +44,7 @@ ANSWEAR 2: SimpleHTTPServer
 <details><summary>Question 3</summary>
 <p>
 
-From observing the traffic, can you find out what is the attacker machine IP now? (4 points)
+3. From observing the traffic, can you find out what is the attacker machine IP now? (4 points)
 
 This one isnt very hard, as it clearly displays the source addresses in the packets
 
@@ -57,7 +57,7 @@ ANSWEAR 3: 192.168.1.9
 <details><summary>Question 4</summary>
 <p>
 
-Now that you know the payload name and the module used to deliver the malicious files, what is the URL that was embedded in the malicious email? (5 points)
+4. Now that you know the payload name and the module used to deliver the malicious files, what is the URL that was embedded in the malicious email? (5 points)
 
 This one wasnt to hard just had to put together what we already know, but i was overthinking it at first :)
 its all in the requests... and just putting together what we already know really. 
@@ -73,7 +73,7 @@ ANSWEAR 4: http[:]//192.168.1.9:443/INVOICE_2021937.pdf.bat
 <details><summary>Question 5</summary>
 <p>
 
-Find the PowerShell launcher string (you don’t need to include the base64 encoded script) (5 points)
+5. Find the PowerShell launcher string (you don’t need to include the base64 encoded script) (5 points)
 
 Another one easily show in the HTTP Stream.
 
@@ -86,7 +86,7 @@ ANSWEAR 5: powershell -noP -sta -w 1 -enc
 <details><summary>Question 6</summary>
 <p>
 
-What is the default user agent being used for communications? (4 points)
+6. What is the default user agent being used for communications? (4 points)
  
 I think you get the idea by now, in the streams we stay.
 
@@ -97,7 +97,7 @@ ANSWEAR 6: Mozilla/5.0
 <details><summary>Question 7</summary>
 <p>
 
-You are seeing a lot of HTTP traffic, what is the name of a process where malware communicates with C2 server asking for instructions at set time intervals? (4 points
+7. You are seeing a lot of HTTP traffic, what is the name of a process where malware communicates with C2 server asking for instructions at set time intervals? (4 points
 
 This one was easy as it something i've been intrested in recently and how to detect them there are projects such as RITA by BHIS that detect becons 
 
@@ -107,7 +107,7 @@ ANSWEA 7: Beaconing
 
 <details><summary>Question 8</summary>
 <p>
-What is the URI containing ‘login’ that the victim machine is communicating to? (5 points)
+8. What is the URI containing ‘login’ that the victim machine is communicating to? (5 points)
 
 Looking in one the becaons HTTP streams we can find our answear
 
@@ -119,7 +119,7 @@ ANSWEAR 8: /login/process.php
 
 <details><summary>Question 9</summary>
 <p>
-Can you name the post-exploitation framework used for C2 communication now to our victim machine? (5 points)
+9. Can you name the post-exploitation framework used for C2 communication now to our victim machine? (5 points)
 
 We know powershell was used and a little google fu gave me  some hints 
 
