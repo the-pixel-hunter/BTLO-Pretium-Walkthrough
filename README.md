@@ -22,7 +22,7 @@ But we can see one that was application/x-msdos-programs and its a bat file but 
 
 
 
-ANSWEAR: INVOICE_2021937.pdf.bat
+ANSWEAR 1: INVOICE_2021937.pdf.bat
 
 </p>
 </details>
@@ -119,6 +119,7 @@ ANSWEAR 8: /login/process.php
 
 <details><summary>Question 9</summary>
 <p>
+Can you name the post-exploitation framework used for C2 communication now to our victim machine? (5 points)
 
 We know powershell was used and a little google fu gave me  some hints 
 
@@ -153,8 +154,3 @@ ANSWEAR 10: Y0uthinky0ucAnc4tchm3$$
 ANSWEAR 11: $sec-account
 </p>
 </details>
-
-### Final Thoughts
-
-Enjoyed this one! stuggled at first with the final two questiosn but having sleep and coming back at it with a fresh mind works wonders!
-
