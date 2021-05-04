@@ -146,7 +146,7 @@ This one had me stumpted for a while but finaly filtering down the packets  did 
 5. just remove the "." and...
 6. BINGO!
 
-![]("https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.23.00.png")
+![](""https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.23.00.png"")
 
 ![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.23.37.png)
 
