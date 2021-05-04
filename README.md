@@ -1,4 +1,4 @@
-# BTLO: Pretium Walkthrough ![BTLO Logo](https://blueteamlabs.online/achievement/share/32/6)
+# BTLO: Pretium Walkthrough ![BTLO Logo](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/btlologo.png)
 
 ### Scenario
 ![Scenario](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC1.png)
