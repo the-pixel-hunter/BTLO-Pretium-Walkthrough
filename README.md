@@ -10,16 +10,15 @@
 
 Lets check out export Objects in Wireshark
 
-- [ ] pic  2
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC2.png)
 
 Stright away we can some intrestin filenames which will remember for later as they may come into play.
 
-- [ ] pic 3
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC3.png)
 
 But we can see one that was application/x-msdos-programs and its a bat file but trying to mascerade as .pdf file.
 
-- [ ] pic 4
-
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC4.png)
 
 
 ANSWEAR 1: INVOICE_2021937.pdf.bat
@@ -35,7 +34,7 @@ ANSWEAR 1: INVOICE_2021937.pdf.bat
 Taking a closer look at the packets we can see that the reposen contatins the server banner "SimpleHTTP/0.6 Python/3.8.5"
 Quick little google to check the full module name fo SimpleHTTP provides us with our answear.
 
-- [ ] pic 5
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC5.png)
 
 ANSWEAR 2: SimpleHTTPServer
 </p>
@@ -48,7 +47,7 @@ ANSWEAR 2: SimpleHTTPServer
 
 This one isnt very hard, as it clearly displays the source addresses in the packets
 
-- [ ] pic 6
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC6.png)
 
 ANSWEAR 3: 192.168.1.9
 
@@ -62,9 +61,9 @@ ANSWEAR 3: 192.168.1.9
 This one wasnt to hard just had to put together what we already know, but i was overthinking it at first :)
 its all in the requests... and just putting together what we already know really. 
 
-- [ ] pic 7
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC7.png)
 
-ANSWEAR 4: http[:]//192.168.1.9:443/INVOICE_2021937.pdf.bat
+ANSWEAR 4: http[:]//192.168.1.9:443/INVOICE_2021937[.]pdf[.]bat
 
 *without out the "[" and "]"*
 </p>
@@ -77,7 +76,7 @@ ANSWEAR 4: http[:]//192.168.1.9:443/INVOICE_2021937.pdf.bat
 
 Another one easily show in the HTTP Stream.
 
-- [ ] pic 8
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC8.png)
 
 ANSWEAR 5: powershell -noP -sta -w 1 -enc
 </p>
@@ -101,7 +100,7 @@ ANSWEAR 6: Mozilla/5.0
 
 This one was easy as it something i've been intrested in recently and how to detect them there are projects such as RITA by BHIS that detect becons 
 
-ANSWEA 7: Beaconing
+ANSWEAR 7: Beaconing
 </p>
 </details>
 
@@ -111,7 +110,7 @@ ANSWEA 7: Beaconing
 
 Looking in one the becaons HTTP streams we can find our answear
 
-- [ ] pic 9 
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC9.png)
 
 ANSWEAR 8: /login/process.php
 </p>
@@ -123,8 +122,8 @@ ANSWEAR 8: /login/process.php
 
 We know powershell was used and a little google fu gave me  some hints 
 
- - [ ] pic 10
- 
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/PIC10.png)
+
 ANSWEAR 9: Empire
 </p>
 </details>
@@ -147,7 +146,11 @@ This one had me stumpted for a while but finaly filtering down the packets  did 
 5. just remove the "." and...
 6. BINGO!
 
-- [ ] pics 11 - 15
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.23.00.png)
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.23.37.png)
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.26.14.png)
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.27.15.png)
+![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.27.23.png)
 
 ANSWEAR 10: Y0uthinky0ucAnc4tchm3$$
 
