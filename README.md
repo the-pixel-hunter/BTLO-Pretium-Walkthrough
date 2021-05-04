@@ -147,9 +147,13 @@ This one had me stumpted for a while but finaly filtering down the packets  did 
 6. BINGO!
 
 ![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.23.00.png)
+
 ![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.23.37.png)
+
 ![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.26.14.png)
+
 ![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.27.15.png)
+
 ![](https://github.com/the-pixel-hunter/BTLO-Pretium-Walkthrough/blob/main/images/Screenshot 2021-03-10 at 18.27.23.png)
 
 ANSWEAR 10: Y0uthinky0ucAnc4tchm3$$
